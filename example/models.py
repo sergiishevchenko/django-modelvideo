@@ -2,4 +2,4 @@ from django.db import models
 
 
 class Company(models.Model):
-    name = models.CharField(max_lenght=20)
+    name = models.CharField(max_length=20)
